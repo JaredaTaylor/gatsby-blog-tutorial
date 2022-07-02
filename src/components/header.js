@@ -1,6 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+//import * as styles from "../components/index.module.css"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -10,13 +11,15 @@ const Header = ({ siteTitle }) => (
       display: `flex`,
       alignItems: `center`,
       justifyContent: `space-between`,
+      backgroundColor: `#663399`,
     }}
   >
     <Link
       to="/"
       style={{
-        fontSize: `var(--font-sm)`,
+        fontSize: `var(--font-lg)`,
         textDecoration: `none`,
+        color: `black`,
       }}
     >
       {siteTitle}

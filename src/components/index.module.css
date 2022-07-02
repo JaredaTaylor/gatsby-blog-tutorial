@@ -13,8 +13,17 @@
   margin-top: var(--size-gap);
 }
 
+.postLink {
+  text-decoration: none;
+}
+
 .listItem {
   margin: 0;
+}
+
+.blogTitle {
+  margin-bottom: 20px;
+  color: blue;
 }
 
 .listItem::marker {
